@@ -1,0 +1,20 @@
+.ball__wrapper {
+    position: relative;
+    height: 65px;
+    width: 300px;
+    border: 5px solid #000;
+    border-radius: 30px;
+    padding: 5px;
+}
+.ball__item {
+
+    position: relative;
+    height: 49px;
+    width: 49px;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    border: 5px solid #000;
+    border-radius: 50%;
+    background: #000;
+}
