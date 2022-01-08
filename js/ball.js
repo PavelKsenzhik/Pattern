@@ -3,7 +3,7 @@ function MoveBall(ball, wrapper){
     console.log(coordsOfBall.left);
     let active = 'rgb(87,87,87)';
     let off = '#000'
-    ball.addEventListener('click', (event) =>{
+    ball.addEventListener('mousemove', (event) =>{
 
         if(event.clientX <= coordsOfBall.left + ball.offsetWidth){
             ball.style.left = wrapper.clientWidth - ball.offsetWidth - wrapper.clientLeft * 2 + 'px';
