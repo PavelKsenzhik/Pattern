@@ -437,5 +437,7 @@ textarea {
 
 *{
 	box-sizing: border-box;
-	font-family: sans-serif;
+}
+body{
+  font-family: sans-serif;
 }
